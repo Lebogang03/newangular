@@ -1,0 +1,42 @@
+<html>
+
+
+
+<body>
+    <h2>PROFILE
+    </h2>
+
+    <img src="assets/face.png" width="" height="">
+    <h1>LEBOGANG MOKWANA
+    </h1>
+    <h3>BIO
+    </h3>
+    <p>my dreams are endless </p>
+
+    <div>
+        <table class="table table-striped centered " align="center">
+            <tr>
+                <th>name</th>
+                <th>email</th>
+                <th>Id</th>
+                <th>username</th>
+            </tr>
+            <tr *ngFor="let item of list">
+                <td>{{item.name}}</td>
+                <td>{{item.email}}</td>
+                <td>{{item.id}}</td>
+                <td>{{item.username}}</td>
+
+
+
+            </tr>
+        </table>
+    </div>
+
+</body>
+<div class="footer">
+    <p>Lebogang mokwana</p>
+</div>
+
+
+</html>
